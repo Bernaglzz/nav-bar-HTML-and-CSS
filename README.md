@@ -1,52 +1,52 @@
-# 🛍️ Product Card Component
+# 🌐 Portfolio Navigation Header
 
-This project is a stylish and responsive **product card** built with HTML and CSS. It's designed to showcase tech products—like wireless headphones—in a clean, modern layout suitable for e-commerce websites, portfolios, or UI/UX demos.
+This project implements a clean and modern **navigation header** for a personal or portfolio website using HTML and CSS.  
+The header includes a logo, navigation links, and a clear call‑to‑action button, ideal for sections like *Experience*, *Projects*, *About me*, and *Contact*.
 
-## 🎯 Project Purpose
+## 🎯 Project Overview
 
-The goal of this component is to present a product attractively and clearly, highlighting key details such as pricing, discounts, ratings, and a call-to-action button. It can be easily integrated into larger web projects or used as a standalone feature.
+The navigation bar sits at the top of the page and provides quick access to key sections of a portfolio.  
+It uses a dark gradient background, a circular logo image, and animated hover effects to create a professional and interactive user experience.
 
-## 🧩 Features
+## 🧩 Main Features
 
-- **Modern Design**: Rounded corners, shadows, and hover effects for a polished look.
-- **Discount Badge**: Highlights promotional offers with a floating badge.
-- **Price Display**: Shows both original and discounted prices with clear styling.
-- **Rating System**: Star-based rating with review count.
-- **Add to Cart Button**: Prominent and interactive button to encourage user action.
-- **Responsive Layout**: Uses Flexbox for vertical and horizontal centering.
+- **Gradient header background**  
+  A linear gradient from light grey to black that gives depth and visual separation.
 
-## 🖼️ Visual Preview
+- **Interactive logo**  
+  A circular logo that scales up smoothly on hover.
 
-Here’s how the product card looks in action:
+- **Navigation links**  
+  Horizontal menu with items such as **Experience**, **Projects**, and **About me**, each with a hover scale effect.
+
+- **Highlight hover effect**  
+  Navigation links change to a bright yellow tone on hover for better visibility.
+
+- **Call‑to‑action button**  
+  A rounded **Contact** button with hover animations to draw attention.
+
+- **Responsive-friendly layout**  
+  Flexbox ensures proper alignment and spacing across different screen sizes.
+
+## 🖼️ Visual Result
+
+Here is a preview of how the navigation header looks:
 
 ![Showcase 1](showcase1.png)
-
-![Showcase 1](showcase2.png)
+![Showcase 2](showcase2.png)
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic structure and accessibility.
-- **CSS3**: Styling, transitions, and layout control.
-- **Flexbox**: For centering and alignment.
-- **Custom Fonts**: Clean and readable typography.
+- **HTML5** for structure  
+- **CSS3** for styling, gradients, and animations  
+- **Google Fonts** (`Oswald`) for modern typography  
+- **Flexbox** for layout and alignment  
 
-## 📁 File Structure
+## ⚙️ Customization Options
 
-- `index.html`: Contains the markup for the product card.
-- `stylesheet.css`: Holds all styling rules.
-- `Headphones.jpg`: Product image used in the card.
+You can easily modify:
 
-## 🧪 How to Use
-
-1. Clone or download the repository.
-2. Replace the product image with your own in the `/Image/` folder.
-3. Update product details in `index.html`.
-4. Customize styles in `stylesheet.css` to match your brand.
-
-## ⚠️ Notes
-
-There is a small CSS typo in the hover effect:
-```css
-.productcard:hover {
-    transform: (1.1); /* Incorrect */
-}
+- The **logo image** and its size  
+- The **menu items** and their links  
+- The **colors** of the gradient, text, and hover states  
+- The **button style**, including size, color, and text  
